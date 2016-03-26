@@ -1,6 +1,7 @@
 package com.patrick;
 
 public class CrazyEights {
+//push to git
 
     public static void main(String[] args) {
 //Printing colors to the terminal
