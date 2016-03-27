@@ -9,6 +9,20 @@ public class DeckOfCards {
     new Card(Card.ACE, Card.HEARTS),
     new Card(Card.ACE, Card.SPADES)
       // fill in the rest of face cards
+    new Card(Card.KING, Card.DIAMONDS),
+    new Card(Card.KING, Card.HEARTS),
+    new Card(Card.KING, Card.SPADES),
+    new Card(Card.KING, Card.CLUBS),
+
+    new Card(Card.QUEEN, Card.DIAMONDS),
+    new Card(Card.QUEEN, Card.HEARTS),
+    new Card(Card.QUEEN, Card.SPADES),
+    new Card(Card.QUEEN, Card.CLUBS),
+
+    new Card(Card.JACK, Card.DIAMONDS),
+    new Card(Card.JACK, Card.HEARTS),
+    new Card(Card.JACK, Card.SPADES),
+    new Card(Card.JACK, Card.CLUBS),
     };
 
     private int index = 0;
