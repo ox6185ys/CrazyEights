@@ -1,14 +1,14 @@
 package com.patrick;
-
 /**
  * Created by Patrick on 3/23/2016.
  */
 public class DeckOfCards {
-    private Card cards [] = {new Card(Card.ACE, Card.CLUBS),
+    private Card cards [] =
+    {new Card(Card.ACE, Card.CLUBS),
     new Card(Card.ACE, Card.DIAMONDS),
     new Card(Card.ACE, Card.HEARTS),
-    new Card(Card.ACE, Card.SPADES)
-      // fill in the rest of face cards
+    new Card(Card.ACE, Card.SPADES),
+
     new Card(Card.KING, Card.DIAMONDS),
     new Card(Card.KING, Card.HEARTS),
     new Card(Card.KING, Card.SPADES),
@@ -26,9 +26,9 @@ public class DeckOfCards {
     };
 
     private int index = 0;
-    public DeckOfCards(){//Constructor
+    public DeckOfCards(){//This is a constructor
     }
-    //int numbers[] = {1,2,3,4};
+    //int numbers[] = {1,2,3,4}; populates an array
     public Card dealTopCard(){
         return cards[index++];
     }

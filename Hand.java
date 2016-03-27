@@ -1,7 +1,6 @@
 package com.patrick;
 
 import java.util.ArrayList;
-
 /**
  * Created by Patrick on 3/26/2016.
  */
