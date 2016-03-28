@@ -30,6 +30,10 @@ public class DeckOfCards {
     }
     //int numbers[] = {1,2,3,4}; populates an array
     public Card dealTopCard(){
+        if (index == cards.length){
+            shuffle();
+            index = 0;
+        }
         return cards[index++];
     }
     public void shuffle(){
@@ -39,6 +43,14 @@ public class DeckOfCards {
             cards[i] = cards[rand];
             cards[rand] = temp;
         }
-        //cardsUsed = 0;
+    }
+    //This makes a new hand
+    public Hand createHand(){
+    Hand newHand = new Hand();//New Hand object w/ constructor.
+        for (int i = 0; i < 8; i++){
+            Card newCard = dealTopCard();
+            newHand.addCard(newCard);
+        }
+        return newHand;
     }
 }

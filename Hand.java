@@ -17,7 +17,8 @@ public class Hand {
     }
     public void showHand(){
         for (Card myCard : cards){
-            System.out.println("My Hand is " + myCard.toString());
+            System.out.println("Hand is " + myCard.toString());
+
         }
     }
 }
