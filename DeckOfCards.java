@@ -1,4 +1,5 @@
 package com.patrick;
+import java.util.Random;
 /**
  * Created by Patrick on 3/23/2016.
  */
@@ -23,8 +24,14 @@ public class DeckOfCards {
     new Card(Card.JACK, Card.HEARTS),
     new Card(Card.JACK, Card.SPADES),
     new Card(Card.JACK, Card.CLUBS),
-    };
 
+    new Card(2, Card.DIAMONDS),
+    new Card(2, Card.HEARTS),
+    new Card(2, Card.SPADES),
+    new Card(2, Card.CLUBS),
+
+//rest of cards to add
+    };
     private int index = 0;
     public DeckOfCards(){//This is a constructor
     }
@@ -36,9 +43,12 @@ public class DeckOfCards {
         }
         return cards[index++];
     }
+    //System.nanoTime()
+    //Random rand = new Random(System.currentTimeMillis());
     public void shuffle(){
+        Random randObject = new Random(System.currentTimeMillis());
         for ( int i = cards.length-1; i > 0; i-- ){
-            int rand = (int)(Math.random())*(i+1);
+            int rand = randObject.nextInt(cards.length);
             Card temp = cards[i];
             cards[i] = cards[rand];
             cards[rand] = temp;

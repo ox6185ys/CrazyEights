@@ -23,8 +23,8 @@ public class GameManager {
         autoPlay.setNewHand(autoHand);
         Card card = currentDeck.dealTopCard();
         firstPlayer.throwCard(card);
-
+/*
         Hand compHand = autoPlay.getHand();
-        compHand.showHand();
+        compHand.showHand()*/;
     }
 }
