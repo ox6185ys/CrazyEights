@@ -9,7 +9,7 @@ public Card throwCard(Card dealtCard) {
     newHand.showHand();
     Scanner scanner = new Scanner(System.in);
 
-    System.out.println("Which card do you want to play? ");
+    System.out.println("Which card do you want to play?  Enter like this 1,2 ");
     System.out.println("1 =" + Card.club+", " + "2 ="+Card.diamond+", "+"3 = "
             +Card.spade+", "+"4 = "+Card.heart);
 

@@ -30,6 +30,46 @@ public class DeckOfCards {
     new Card(2, Card.SPADES),
     new Card(2, Card.CLUBS),
 
+    new Card(3, Card.DIAMONDS),
+    new Card(3, Card.HEARTS),
+    new Card(3, Card.SPADES),
+    new Card(3, Card.CLUBS),
+
+    new Card(4, Card.DIAMONDS),
+    new Card(4, Card.HEARTS),
+    new Card(4, Card.SPADES),
+    new Card(4, Card.CLUBS),
+
+    new Card(5, Card.DIAMONDS),
+    new Card(5, Card.HEARTS),
+    new Card(5, Card.SPADES),
+    new Card(5, Card.CLUBS),
+
+    new Card(6, Card.DIAMONDS),
+    new Card(6, Card.HEARTS),
+    new Card(6, Card.SPADES),
+    new Card(6, Card.CLUBS),
+
+    new Card(7, Card.DIAMONDS),
+    new Card(7, Card.HEARTS),
+    new Card(7, Card.SPADES),
+    new Card(7, Card.CLUBS),
+
+    new Card(8, Card.DIAMONDS),
+    new Card(8, Card.HEARTS),
+    new Card(8, Card.SPADES),
+    new Card(8, Card.CLUBS),
+
+    new Card(9, Card.DIAMONDS),
+    new Card(9, Card.HEARTS),
+    new Card(9, Card.SPADES),
+    new Card(9, Card.CLUBS),
+
+    new Card(10, Card.DIAMONDS),
+    new Card(10, Card.HEARTS),
+    new Card(10, Card.SPADES),
+    new Card(10, Card.CLUBS),
+            
 //rest of cards to add
     };
     private int index = 0;
