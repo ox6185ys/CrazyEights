@@ -1,9 +1,5 @@
 package com.patrick;
 public class CrazyEights {
-
-    /**
-     * Created by Patrick on 3/23/2016.
-     */
 //    public static class Deck {
 
         //push to git
