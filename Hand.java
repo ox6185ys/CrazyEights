@@ -1,5 +1,5 @@
-package com.patrick;
-
+//package com.patrick;
+//todo keep same
 import java.util.ArrayList;
 /**
  * Created by Patrick on 3/26/2016.
@@ -18,11 +18,12 @@ public class Hand {
         cards.remove(throwCard);
     }
     public void showHand(){
+        //TODO: 10/19/2016 "Call a a card a single number"
         System.out.println("Hand is ");
         for (Card myCard : cards){
             System.out.println(myCard.toString());
         }
-
+//todo rewrite deck
     }
     public boolean hasCard(Card checkCard){
 
